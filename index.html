@@ -71,7 +71,7 @@
 
 <style type="text/css">
 
-* { box-sizing: border-box; } body {margin: 0;}.nav-link{font-size:1.1rem;}#i6h6px{color:black;}@media only screen and (max-width: 992px){.hamburger.active .bar:nth-child(2){opacity:0;}.hamburger.active .bar:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger.active .bar:nth-child(3){transform:translateY(-8px) rotate(-45deg);}}@media only screen and (max-width: 768px){.nav-menu.active{display:block;left:0px;}.nav-item{margin-top:10px;margin-right:0px;margin-bottom:10px;margin-left:0px;}.hamburger.active .bar:nth-child(2){opacity:0;}.hamburger.active .bar:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger.active .bar:nth-child(3){transform:translateY(-8px) rotate(-45deg);}}
+* { box-sizing: border-box; } body {margin: 0;}.hamburger{display:none;}.bar{display:block;width:25px;height:3px;margin-top:5px;margin-right:auto;margin-bottom:5px;margin-left:auto;transition-behavior:normal;transition-duration:0.3s;transition-timing-function:ease-in-out;transition-delay:0s;transition-property:all;background-color:rgb(16, 16, 16);}.nav-link{font-size:1.1rem;}#iqnye{background-color:green;color:white;}#ivjq7{color:white;}#iibww{color:white;}#i3xz3{color:white;}#izprb{color:white;}#ignu8{color:white;}#i1i09{color:white;}#ioqu2j{color:white;}#ixr46a{color:white;}#iqnye-2{background-color:green;color:white;}#ivjq7-2{color:red;}#iibww-2{color:white;}#i3xz3-2{color:white;}#izprb-2{color:white;}#ignu8-2{color:white;}#i1i09-2{color:white;}#ioqu2j-2{color:white;}#ixr46a-2{color:white;}#iqnye-2-2{background-color:green;color:white;}#ivjq7-2-2{color:blue;}#iibww-2-2{color:white;}#i3xz3-2-2{color:white;}#izprb-2-2{color:white;}#ignu8-2-2{color:white;}#i1i09-2-2{color:white;}#ioqu2j-2-2{color:white;}#ixr46a-2-2{color:white;}@media only screen and (max-width: 992px){.hamburger{display:block;cursor:pointer;}.hamburger.active .bar:nth-child(2){opacity:0;}.hamburger.active .bar:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger.active .bar:nth-child(3){transform:translateY(-8px) rotate(-45deg);}}@media only screen and (max-width: 768px){.nav-menu.active{display:block;left:0px;}.nav-item{margin-top:10px;margin-right:0px;margin-bottom:10px;margin-left:0px;}.hamburger{display:block;cursor:pointer;}.hamburger.active .bar:nth-child(2){opacity:0;}.hamburger.active .bar:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger.active .bar:nth-child(3){transform:translateY(-8px) rotate(-45deg);}}@media (max-width: 766px){#intk8{background-color:white;}#iqnye{background-color:black;}#i5b4n{background-color:white;}#itl9u{background-color:white;}#collapseId{text-align:center;}#intk8-2{background-color:white;}#iqnye-2{background-color:black;}#i5b4n-2{background-color:white;}#itl9u-2{background-color:white;}#collapseId-2{text-align:right;}#ivjq7-2{background-color:black;color:red;}#intk8-2-2{background-color:white;}#iqnye-2-2{background-color:black;}#i5b4n-2-2{background-color:white;}#itl9u-2-2{background-color:white;}#collapseId-2-2{text-align:right;}#ivjq7-2-2{background-color:black;color:white;}}@media (max-width: 380px){#ivjq7-2-2{color:blue;}}
 
 </style>
 
@@ -79,26 +79,86 @@
 		<html>
  <head></head>
  <body id="iurm" class="bg-secondary">
-  <nav class="navbar navbar-expand-lg sticky-top bg-white p-3" id="ik717r">
-   <div class="container">
-    <div type="button" id="toggle-56ff66b1-b9a4-43d1-97b9-8cf1a558ce14" data-bs-toggle="collapse" data-bs-target="#collapse-56ff66b1-b9a4-43d1-97b9-8cf1a558ce14" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
-     <span class="navbar-toggler-icon"></span>
-    </div><a href="#" class="navbar-brand"><strong id="i6h6px">Shopiana</strong></a>
-    <div id="collapse-56ff66b1-b9a4-43d1-97b9-8cf1a558ce14" class="collapse navbar-collapse">
-     <ul class="navbar-nav ms-auto">
-      <li class="nav-item"><a aria-current="page" href="#" class="nav-link mx-2 text-uppercase active">Offers</a></li>
-      <li class="nav-item"><a href="#" class="nav-link mx-2 text-uppercase">Products</a></li>
-      <li class="nav-item"><a href="#" class="nav-link mx-2 text-uppercase">Catalog</a></li>
-      <li class="nav-item"><a href="#" class="nav-link mx-2 text-uppercase">Services</a></li>
-      <li class="nav-item"><a href="#" class="nav-link mx-2 text-uppercase">About</a></li>
-     </ul>
-     <ul class="navbar-nav ms-auto">
-      <li class="nav-item"><a href="#" class="nav-link mx-2 text-uppercase"> Cart</a></li>
-      <li class="nav-item"><a href="#" class="nav-link mx-2 text-uppercase"> Account</a></li>
-     </ul>
+  <div id="i03us">
+   <nav class="navbar navbar-expand-lg sticky-top p-3 border" id="iqnye">
+    <div class="container" id="i80rk">
+     <div class="hamburger" id="invdm">
+      <span class="bar" id="i5b4n"></span><span class="bar" id="intk8"></span><span class="bar" id="itl9u"></span>
+     </div><a href="#" class="navbar-brand"><strong id="ivjq7">Shopiana</strong></a>
+     <div id="collapseId" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto" id="i4lka">
+       <li class="nav-item"><a aria-current="page" href="#" class="nav-link mx-2 text-uppercase active" id="iibww">Offers</a></li>
+       <li class="nav-item"><a href="#" class="nav-link mx-2 text-uppercase" id="i3xz3">Products</a></li>
+       <li class="nav-item"><a href="#" class="nav-link mx-2 text-uppercase" id="izprb">Catalog</a></li>
+       <li class="nav-item"><a href="#" class="nav-link mx-2 text-uppercase" id="ignu8">Services</a></li>
+       <li class="nav-item"><a href="#" class="nav-link mx-2 text-uppercase" id="i1i09">About</a></li>
+      </ul>
+      <ul class="navbar-nav ms-auto">
+       <li class="nav-item"><a href="#" class="nav-link mx-2 text-uppercase" id="ioqu2j"> Cart</a></li>
+       <li class="nav-item"><a href="#" class="nav-link mx-2 text-uppercase" id="ixr46a"> Account</a></li>
+      </ul>
+     </div>
     </div>
-   </div>
-  </nav>
+   </nav>
+  </div>
+  <div custom_block_template="true" block_id="customBlockTemplate_test_nav" id="i03us-2" draggable="true" class="gjs-selected">
+   <nav id="iqnye-2" draggable="true" class="navbar navbar-expand-lg sticky-top p-3 border">
+    <div id="i80rk-2" draggable="true" class="container">
+     <div id="invdm-2" draggable="true" class="hamburger active">
+      <span id="i5b4n-2" draggable="true" class="bar"></span><span id="intk8-2" draggable="true" class="bar"></span><span id="itl9u-2" draggable="true" class="bar"></span>
+     </div><a id="ibri2-2" draggable="true" href="#" class="navbar-brand"><strong id="ivjq7-2" draggable="true">Shopiana</strong></a>
+     <div id="collapseId-2" draggable="true" class="collapse navbar-collapse show">
+      <ul id="i4lka-2" draggable="true" class="navbar-nav ms-auto">
+       <li id="insds-2" draggable="true" class="nav-item"><a id="iibww-2" draggable="true" aria-current="page" href="#" class="nav-link mx-2 text-uppercase active">Offers</a></li>
+       <li id="i83gi-2" draggable="true" class="nav-item"><a id="i3xz3-2" draggable="true" href="#" class="nav-link mx-2 text-uppercase">Products</a></li>
+       <li id="iswxb-2" draggable="true" class="nav-item"><a id="izprb-2" draggable="true" href="#" class="nav-link mx-2 text-uppercase">Catalog</a></li>
+       <li id="itzrc-2" draggable="true" class="nav-item"><a id="ignu8-2" draggable="true" href="#" class="nav-link mx-2 text-uppercase">Services</a></li>
+       <li id="i3h8l-2" draggable="true" class="nav-item"><a id="i1i09-2" draggable="true" href="#" class="nav-link mx-2 text-uppercase">About</a></li>
+      </ul>
+      <ul id="iry2pi-2" draggable="true" class="navbar-nav ms-auto">
+       <li id="iuzb8v-2" draggable="true" class="nav-item"><a id="ioqu2j-2" draggable="true" href="#" class="nav-link mx-2 text-uppercase"> Cart</a></li>
+       <li id="ijbkz9-2" draggable="true" class="nav-item"><a id="ixr46a-2" draggable="true" href="#" class="nav-link mx-2 text-uppercase"> Account</a></li>
+      </ul>
+     </div>
+    </div>
+   </nav>
+  </div>
+  <div custom_block_template="true" block_id="customBlockTemplate_test_test_2" id="i03us-2-2" draggable="true" class="gjs-selected">
+   <nav id="iqnye-2-2" draggable="true" class="navbar navbar-expand-lg sticky-top p-3 border">
+    <div id="i80rk-2-2" draggable="true" class="container">
+     <div id="invdm-2-2" draggable="true" class="hamburger active">
+      <span id="i5b4n-2-2" draggable="true" class="bar"></span><span id="intk8-2-2" draggable="true" class="bar"></span><span id="itl9u-2-2" draggable="true" class="bar"></span>
+     </div><a id="ibri2-2-2" draggable="true" href="#" class="navbar-brand"><strong id="ivjq7-2-2" draggable="true">Shopiana</strong></a>
+     <div id="collapseId-2-2" draggable="true" class="collapse navbar-collapse show">
+      <ul id="i4lka-2-2" draggable="true" class="navbar-nav ms-auto">
+       <li id="insds-2-2" draggable="true" class="nav-item"><a id="iibww-2-2" draggable="true" aria-current="page" href="#" class="nav-link mx-2 text-uppercase active">Offers</a></li>
+       <li id="i83gi-2-2" draggable="true" class="nav-item"><a id="i3xz3-2-2" draggable="true" href="#" class="nav-link mx-2 text-uppercase">Products</a></li>
+       <li id="iswxb-2-2" draggable="true" class="nav-item"><a id="izprb-2-2" draggable="true" href="#" class="nav-link mx-2 text-uppercase">Catalog</a></li>
+       <li id="itzrc-2-2" draggable="true" class="nav-item"><a id="ignu8-2-2" draggable="true" href="#" class="nav-link mx-2 text-uppercase">Services</a></li>
+       <li id="i3h8l-2-2" draggable="true" class="nav-item"><a id="i1i09-2-2" draggable="true" href="#" class="nav-link mx-2 text-uppercase">About</a></li>
+      </ul>
+      <ul id="iry2pi-2-2" draggable="true" class="navbar-nav ms-auto">
+       <li id="iuzb8v-2-2" draggable="true" class="nav-item"><a id="ioqu2j-2-2" draggable="true" href="#" class="nav-link mx-2 text-uppercase"> Cart</a></li>
+       <li id="ijbkz9-2-2" draggable="true" class="nav-item"><a id="ixr46a-2-2" draggable="true" href="#" class="nav-link mx-2 text-uppercase"> Account</a></li>
+      </ul>
+     </div>
+    </div>
+   </nav>
+  </div>
+  <script>var items = document.querySelectorAll('#i03us, #i03us-2, #i03us-2-2');
+          for (var i = 0, len = items.length; i < len; i++) {
+            (function(){
+const hamburger = this.querySelectorAll(".hamburger");
+        const navMenu = this.querySelectorAll(".navbar-collapse");
+        for (let i = 0; i < hamburger.length; i++) {
+            hamburger[i].addEventListener("click", function () {
+                hamburger[i].classList.toggle("active");
+                navMenu[i].classList.toggle("show");
+            });
+        }
+        ;
+}.bind(items[i]))();
+          }</script>
  </body>
 </html>
 </html>
