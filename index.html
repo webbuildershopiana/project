@@ -71,7 +71,7 @@
 
 <style type="text/css">
 
-* { box-sizing: border-box; } body {margin: 0;}.nav-pills > .nav-link.active{background-color:red;color:white;}.swiper{height:80vh;}.swiper-slide{height:80vh !important;}@media only screen and (max-width: 992px){.hamburger.active .bar:nth-child(2){opacity:0;}.hamburger.active .bar:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger.active .bar:nth-child(3){transform:translateY(-8px) rotate(-45deg);}}@media only screen and (max-width: 768px){.hamburger.active .bar:nth-child(2){opacity:0;}.hamburger.active .bar:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger.active .bar:nth-child(3){transform:translateY(-8px) rotate(-45deg);}}
+* { box-sizing: border-box; } body {margin: 0;}.nav-pills > .nav-link.active{background-color:red;color:white;}.swiper{height:80vh;}.swiper-slide{height:80vh !important;}#i5mmxi{padding:10px;}@media only screen and (max-width: 992px){.hamburger.active .bar:nth-child(2){opacity:0;}.hamburger.active .bar:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger.active .bar:nth-child(3){transform:translateY(-8px) rotate(-45deg);}}@media only screen and (max-width: 768px){.hamburger.active .bar:nth-child(2){opacity:0;}.hamburger.active .bar:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger.active .bar:nth-child(3){transform:translateY(-8px) rotate(-45deg);}}
 
 </style>
 
@@ -83,22 +83,25 @@
    <div class="swiper w-100 mySwiper">
     <div class="swiper-wrapper">
      <div class="swiper-slide">
-      <img src="https://images.unsplash.com/photo-1630926906914-f98970d8894c?q=80&amp;w=1932&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D  " alt="swiper-image" class="swiper-image w-100 h-100">
+      <img src="https://dkcut7rvj02cb.cloudfront.net/files/project/ASSET/3.jpeg" alt="swiper-image" id="im6v" class="swiper-image w-100 h-100">
      </div>
      <div class="swiper-slide">
-      <img src="https://images.unsplash.com/photo-1678366633411-fafa89580dea?q=80&amp;w=1932&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="swiper-image" class="swiper-image w-100 h-100">
+      <img src="https://dkcut7rvj02cb.cloudfront.net/files/project/ASSET/1.jpeg" alt="swiper-image" id="iz6i" class="swiper-image w-100 h-100">
      </div>
      <div class="swiper-slide">
-      <img src="https://images.unsplash.com/photo-1621619856624-42fd193a0661?q=80&amp;w=2058&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="swiper-image" class="swiper-image w-100 h-100">
+      <img src="https://dkcut7rvj02cb.cloudfront.net/files/project/ASSET/2.jpeg" alt="swiper-image" id="ii1s" class="swiper-image w-100 h-100">
      </div>
     </div>
-    <div class="swiper-button-next" id="ifyci"></div>
-    <div class="swiper-button-prev"></div>
+    <div id="ifyci" class="swiper-button-next"></div>
+    <div class="swiper-button-prev" id="iuxs5"></div>
     <div class="swiper-pagination"></div>
     <div class="swiper-scrollbar"></div>
    </div>
   </div>
-  <script>var props = {"imtu4f":{"autoplay":true,"loop":true,"scrollbar":{"enabled":false},"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev"},"direction":"horizontal","paginationType":"bullets","initialSlide":1,"speed":300,"dynamicBullets":false,"clickable":false,"effect":"slide"}};
+  <div id="i5mmxi">
+   Insert your text here
+  </div>
+  <script>var props = {"imtu4f":{"autoplay":true,"loop":true,"scrollbar":{"el":".swiper-scrollbar","draggable":true},"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev"},"direction":"horizontal","paginationType":"bullets","initialSlide":1,"speed":300,"dynamicBullets":false,"clickable":false,"effect":"slide"}};
           var ids = Object.keys(props).map(function(id) { return '#'+id }).join(',');
           var els = document.querySelectorAll(ids);
           for (var i = 0, len = els.length; i < len; i++) {
