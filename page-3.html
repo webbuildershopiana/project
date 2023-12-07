@@ -71,7 +71,7 @@
 
 <style type="text/css">
 
-* { box-sizing: border-box; } body {margin: 0;}.hamburger{display:none;}.bar{display:block;width:25px;height:3px;margin-top:5px;margin-right:auto;margin-bottom:5px;margin-left:auto;transition-behavior:normal;transition-duration:0.3s;transition-timing-function:ease-in-out;transition-delay:0s;transition-property:all;background-color:rgb(16, 16, 16);}.animation{transition-behavior:normal;transition-duration:0.7s;transition-timing-function:ease;transition-delay:0s;transition-property:all;}#ic2223-3{background-color:white;}@media only screen and (max-width: 992px){.animation{transition-behavior:normal;transition-duration:0.7s;transition-timing-function:ease;transition-delay:0s;transition-property:all;}.hamburger{display:block;cursor:pointer;}.hamburger.active .bar:nth-child(2){opacity:0;}.hamburger.active .bar:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger.active .bar:nth-child(3){transform:translateY(-8px) rotate(-45deg);}}@media only screen and (max-width: 768px){.nav-item{margin-top:10px;margin-right:0px;margin-bottom:10px;margin-left:0px;}.hamburger{display:block;cursor:pointer;}.hamburger.active .bar:nth-child(2){opacity:0;}.hamburger.active .bar:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger.active .bar:nth-child(3){transform:translateY(-8px) rotate(-45deg);}}@media (max-width: 766px){#ic2223-3{background-color:black;}}@media (max-width: 380px){#ic2223-3{background-color:grey;}#irhj1o-3{color:white;}}
+* { box-sizing: border-box; } body {margin: 0;}.hamburger{display:none;}.bar{display:block;width:25px;height:3px;margin-top:5px;margin-right:auto;margin-bottom:5px;margin-left:auto;transition-behavior:normal;transition-duration:0.3s;transition-timing-function:ease-in-out;transition-delay:0s;transition-property:all;background-color:rgb(16, 16, 16);}.animation{transition-behavior:normal;transition-duration:0.7s;transition-timing-function:ease;transition-delay:0s;transition-property:all;}#ic2223-3{background-color:white;}.nav-pills > .nav-link.active{background-color:red;color:white;}@media only screen and (max-width: 992px){.animation{transition-behavior:normal;transition-duration:0.7s;transition-timing-function:ease;transition-delay:0s;transition-property:all;}.hamburger{display:block;cursor:pointer;}.hamburger.active .bar:nth-child(2){opacity:0;}.hamburger.active .bar:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger.active .bar:nth-child(3){transform:translateY(-8px) rotate(-45deg);}}@media only screen and (max-width: 768px){.nav-item{margin-top:10px;margin-right:0px;margin-bottom:10px;margin-left:0px;}.hamburger{display:block;cursor:pointer;}.hamburger.active .bar:nth-child(2){opacity:0;}.hamburger.active .bar:nth-child(1){transform:translateY(8px) rotate(45deg);}.hamburger.active .bar:nth-child(3){transform:translateY(-8px) rotate(-45deg);}}@media (max-width: 766px){#ic2223-3{background-color:black;}}@media (max-width: 380px){#ic2223-3{background-color:grey;}#irhj1o-3{color:white;}}
 
 </style>
 
@@ -107,20 +107,6 @@
     </div>
    </nav>
   </div>
-  <script>var items = document.querySelectorAll('#ic2223-3');
-          for (var i = 0, len = items.length; i < len; i++) {
-            (function(){
-const hamburger = this.querySelectorAll(".hamburger");
-        const navMenu = this.querySelectorAll(".navbar-collapse");
-        for (let i = 0; i < hamburger.length; i++) {
-            hamburger[i].addEventListener("click", function () {
-                hamburger[i].classList.toggle("active");
-                navMenu[i].classList.toggle("show");
-            });
-        }
-        ;
-}.bind(items[i]))();
-          }</script>
  </body>
 </html>
 </html>
